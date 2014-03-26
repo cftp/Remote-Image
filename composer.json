@@ -1,0 +1,14 @@
+{
+    "name": "cftp/remote-image",
+    "description": "Downloads a remote image and saves it locally if it hasn't been done already",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name"    : "Code For The People",
+            "homepage": "http://codeforthepeople.com/"
+        }
+    ],
+    "require": {
+
+    }
+}
