@@ -1,6 +1,6 @@
 # Remote Image
 
-Downloads a remote image and saves it locally if it hasn't been done already. Images already downloaded will not be downloaded a second time, and will be interned/reused.
+A WordPress library to help grab remote images. Downloads a remote image and saves it locally if it hasn't been done already. Images already downloaded will not be downloaded a second time, and will be interned/reused.
 
 ## Usage
 
@@ -11,3 +11,11 @@ if ( !is_wp_error( $attachment_id ) ) {
     // hooray, do things with newly downloaded attachment
 }
 ```
+
+## Installation
+
+## Composer
+
+Add this repository to your repositories section and require:
+
+    "cftp/remote-image": "*"
