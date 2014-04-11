@@ -99,7 +99,7 @@ class cftp_remote_image {
 
 		// fix file filename
 		$file = preg_replace( array( '/[^a-zA-Z0-9\.-_]/', '/_+/' ), '_', $file );
-		preg_match( '/[^\?]+\.(jpg|JPG|jpe|JPE|jpeg|JPEG|gif|GIF|png|PNG)/', $file, $matches );
+		preg_match( '/[^\?]+\.(jpg|jpe|jpeg|gif|png)/i', $file, $matches );
 		if ( empty( $matches ) ) {
 			$file_array['name'] = md5($file).'.jpg';
 		} else {
